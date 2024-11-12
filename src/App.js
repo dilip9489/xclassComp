@@ -29,7 +29,8 @@ class Counter extends Component {
   render() {
     return (
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <h1>Counter: {this.state.count}</h1>
+        <h1> Counter App</h1>
+        <p style={{fontWeight:'500', fontSize:"20px"}}>Count: {this.state.count}</p>
         <button style={{marginRight:"10px", borderRadius:"5px"}} onClick={this.increment}>Increment</button>
         <button style={{marginRight:"10px", borderRadius:"5px"}} onClick={this.decrement}>Decrement</button>
          
